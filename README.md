@@ -44,7 +44,7 @@ CSBotnet is designed to manage multiple clients from a server application. Clien
 ## Requirements
 
 * Windows OS
-* .NET Framework (or compatible .NET runtime)
+* .NET SDK 8.0
 * Visual Studio for building the project
 
 ---
