@@ -544,7 +544,7 @@ namespace CSBotnet.Server
             if (DashboardUtils.IsAnyClientSelected())
             {
                 Network.SendString(DashboardUtils.GetSelectedClient().Stream, "<Restart>");
-                Logger.Info(@"Client {client.Username}@{client.Ip} restarted");
+                Logger.Info($"Client {client.Username}@{client.Ip} restarted");
             }
         }
 
@@ -971,3 +971,4 @@ namespace CSBotnet.Server
         }
     }
 }
+
